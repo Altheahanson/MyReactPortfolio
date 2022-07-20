@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
+
 import { AppBar, Button, Tab, Tabs, Toolbar, Typography } from '@mui/material'
-// import Navigation from './Navigation'
+ import Navigation from './Navigation'
 
 
 const Header = () => {
@@ -9,8 +10,9 @@ const Header = () => {
         <React.Fragment>
             <AppBar sx={{background: "purple"}}>
                 <Toolbar>   
-                {/* <Navigation/> */}
+                <Navigation/>
                 <Typography sx={{ marginLeft: "auto" }}> Althea Hanson</Typography>
+                
                 <Tabs sx={{ marginLeft: "auto" }} textColor="inherit" value={value} onChange={(e, value) => setValue(value)} indicatorColor="secondary">
                     <Tab label="About Me"/>
                     <Tab label="Projects"/>
@@ -25,3 +27,4 @@ const Header = () => {
     )
 }
 export default Header
+

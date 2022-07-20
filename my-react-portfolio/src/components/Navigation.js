@@ -1,6 +1,6 @@
 
 import React from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Drawer, Button, List, ListItemButton, ListItemIcon, ListItemText } from '@mui/material';
 // import MenuIcon from '@mui/icons-material/Menu';
 
@@ -17,7 +17,7 @@ const Navigation = () => {
               <ListItemButton sx={{ textAlign: 'Center' }}  key={index}>
                 <ListItemIcon>
                   <ListItemText>
-                     {page}  
+                    <Link to={page}> {page} </Link> 
                   </ListItemText>
                 </ListItemIcon>
               </ListItemButton>
