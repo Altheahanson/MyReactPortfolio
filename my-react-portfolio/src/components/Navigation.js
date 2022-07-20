@@ -1,22 +1,33 @@
-import React from 'react'
-import { AppBar, Tab, Tabs, Toolbar, Typography } from '@mui/material'
+
+import React from 'react';
+// import { Link } from 'react-router-dom';
+import { Drawer, Button, List, ListItemButton, ListItemIcon, ListItemText } from '@mui/material';
+// import MenuIcon from '@mui/icons-material/Menu';
+
+// Setup NavItems
+const PAGES = ['About', 'Projects', 'Contact', 'Resume'];
 
 const Navigation = () => {
-    return (
-        <React.Fragment>
-            <AppBar sx={{background: "purple"}}>
-                <Toolbar>   
-
-                <Typography> Althea Hanson Portfolio </Typography>
-                <Tabs sx={{ marginLeft: "auto" }} textColor="inherit">
-                    <Tab label="About Me"/>
-                    <Tab label="Projects"/>
-                    <Tab label="Contact"/>
-                    <Tab label="Resume"/>
-                </Tabs>
-                </Toolbar>
-            </AppBar>
-        </React.Fragment>
-    )
+  return (
+    <React.Fragment>
+      <Drawer open={true}>
+        <List sx={{ padding: '30px' }}>
+          {
+            PAGES.map((page, index) => (
+              <ListItemButton sx={{ textAlign: 'Center' }}  key={index}>
+                <ListItemIcon>
+                  <ListItemText>
+                     {page}  
+                  </ListItemText>
+                </ListItemIcon>
+              </ListItemButton>
+            ))
+          }
+        </List>
+        <Button sx={{ margin: "7px" }} variant="contained"> DownLoad CV</Button>
+      </Drawer>
+    </React.Fragment>
+  )
 }
+
 export default Navigation
