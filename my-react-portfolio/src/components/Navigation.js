@@ -10,14 +10,15 @@ const PAGES = ['About', 'Projects', 'Contact', 'Resume'];
 const Navigation = () => {
   return (
     <React.Fragment>
-      <Drawer open={true}>
+      <Drawer open={true}  variant="permanent"
+        anchor="left">
         <List sx={{ padding: '30px' }}>
           {
             PAGES.map((page, index) => (
               <ListItemButton sx={{ textAlign: 'Center' }}  key={index}>
                 <ListItemIcon>
                   <ListItemText>
-                    <Link to={page}> {page} </Link> 
+                    <Link to={page} style={{ textDecoration: 'none' }}> {page} </Link> 
                   </ListItemText>
                 </ListItemIcon>
               </ListItemButton>
