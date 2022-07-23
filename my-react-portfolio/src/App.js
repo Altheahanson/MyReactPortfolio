@@ -1,12 +1,3 @@
-// import Navigation from './components/Navigation';
-// import Header from './components/Header';
-// function App() {
-//     return <div>
-//       <Navigation/>
-//       <Header/>
-//   </div>
-// }
-// export default App;
 
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -17,11 +8,13 @@ import About from './components/Pages/About';
 import Projects from './components/Pages/Projects';
 import Contact from './components/Pages/Contact';
 import Resume from './components/Pages/Resume';
+import CssBaseline from '@mui/material/CssBaseline';
 
 
 function App() {
   return (
     <Router>
+       <CssBaseline />
       <div>
         <Header />
         <Navigation/>

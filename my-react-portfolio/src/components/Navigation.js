@@ -3,16 +3,19 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Drawer, List, ListItemButton, ListItemIcon, ListItemText } from '@mui/material';
 import ImageAvatars from './Avatar';
-// import MenuIcon from '@mui/icons-material/Menu';
+import Box from '@mui/material/Box';
+
 
 // Setup NavItems
 const PAGES = ['About', 'Projects', 'Contact', 'Resume'];
 
+
 const Navigation = () => {
   return (
     <React.Fragment>
-     
-      <Drawer open={true}  variant="permanent" anchor="left">
+     <Box sx={{ display: 'flex' }}>
+      <Drawer open={true}  variant="permanent" anchor="left"
+  >
         <List sx={{ padding: '30px' }}>
         <ImageAvatars/>
           {
@@ -28,6 +31,7 @@ const Navigation = () => {
           }
         </List>
       </Drawer>
+      </Box>
     </React.Fragment>
   )
 }

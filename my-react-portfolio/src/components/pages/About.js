@@ -1,8 +1,13 @@
 import React from 'react';
+import Box from '@mui/material/Box';
+
+
 
 function About() {
   return (
+    <Box component="main" sx={{  flexGrow: 1, pl: 25, pr:10, py: 12,  }}>
     <div>
+       
       <h1>About Me</h1>
       <p>
       I am a Software Developer based in Toronto Canada and I specialize in building 
@@ -13,6 +18,7 @@ function About() {
        My expected Completion date is August 3rd, 2022.
       </p>
     </div>
+    </Box>
   );
 }
 export default About
