@@ -13,20 +13,22 @@ import CssBaseline from '@mui/material/CssBaseline';
 
 function App() {
   return (
+    <div>
     <Router>
        <CssBaseline />
-      <div>
+      
         <Header />
         <Navigation/>
         <Routes>
-          <Route path='/about' element={<About />} ></Route>
+          <Route path='/' element={<About />} ></Route>
           <Route path='/projects' element={<Projects />}></Route>
           <Route path='/contact' element={<Contact />}></Route>
           <Route path='/resume' element={<Resume />}></Route>
         </Routes>
-        <Footer />
-      </div>
+     <Footer />
     </Router>
+    
+    </div>
   )
 }
 export default App;

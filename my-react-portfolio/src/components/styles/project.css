@@ -1,0 +1,38 @@
+.work-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.card {
+    border-style: solid;
+    border-color: #014769;
+    width: 18rem;
+    transition: all 0.2s ease-in;
+    
+    }
+  
+  .card:hover {
+      transform: scale(1.03);
+      box-shadow: 10px 10px lightgray;
+  }
+    
+  .card-header {
+    text-align: center;
+    background-color: #4682b4;
+    color: white;
+    font-size: 100%;
+    }
+    
+  .card-body {
+    margin: auto;
+    padding-left: 0%;
+    padding-right: 0%;
+    }
+  
+  .btn {
+    margin-left: 15px;
+    margin-right: 15px;
+    color: royalblue;
+  }
+

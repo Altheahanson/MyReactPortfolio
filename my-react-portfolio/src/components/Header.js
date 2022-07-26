@@ -19,7 +19,7 @@ const Header = () => {
                 <Typography sx={{ marginLeft: 20, fontSize: 50 }}> Althea Hanson</Typography>
                 
               
-                <Typography sx={{ marginLeft: "auto" }}> Toronto ON</Typography>
+                <Typography sx={{ marginLeft: "auto", marginRight: 5  }}> Toronto ON</Typography>
 
                 <a style={{ textDecoration: 'none' }} href={Resume} target="_blank" rel="noreferrer" download>
                 <Button sx={{ marginLeft: "auto" }} variant="contained" size="small"> DownLoad CV</Button>

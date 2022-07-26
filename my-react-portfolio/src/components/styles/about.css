@@ -1,0 +1,11 @@
+.photoHeader{
+    display: flex;
+    flex-direction: row;
+    margin: 25px;
+   
+}
+
+.aboutME{
+    text-align: center;
+    margin-left: 25px;
+}

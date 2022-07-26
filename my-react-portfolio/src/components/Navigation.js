@@ -7,17 +7,23 @@ import Box from '@mui/material/Box';
 
 
 // Setup NavItems
-const PAGES = ['About', 'Projects', 'Contact', 'Resume'];
+const PAGES = [ 'Projects', 'Contact', 'Resume'];
 
 
 const Navigation = () => {
   return (
     <React.Fragment>
      <Box sx={{ display: 'flex' }}>
-      <Drawer open={true}  variant="permanent" anchor="left"
-  >
+      <Drawer open={true}  variant="permanent" anchor="left">
         <List sx={{ padding: '30px' }}>
         <ImageAvatars/>
+        <ListItemButton sx={{ textAlign: 'Center' }} >
+                <ListItemIcon>
+                  <ListItemText>
+                    <Link to="/" style={{ textDecoration: 'none' }}> About </Link> 
+                  </ListItemText>
+                </ListItemIcon>
+              </ListItemButton>
           {
             PAGES.map((page, index) => (
               <ListItemButton sx={{ textAlign: 'Center' }}  key={index}>

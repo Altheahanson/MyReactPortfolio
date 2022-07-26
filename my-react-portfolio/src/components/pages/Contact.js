@@ -4,6 +4,7 @@ import { validateEmail } from '../../utils/helpers';
 import Box from '@mui/material/Box';
 
 
+
 function Contact() {
   const [pages] = useState([
       {
@@ -52,16 +53,16 @@ function Contact() {
 
 
   return (
-    <Box component="main" sx={{  flexGrow: 1, pl: 25, pr:10, py: 12,  }}>
+    <Box component="main" sx={{  flexGrow: 1, display:"flex", justifyContent:'center', py: 12,  }}>
       <section className="bg-dark">
-          <div className="container">
+          <div className="container" >
               <div className="row">
                   <div className="col-lg-10 mx-auto text-white mb-4">
                   <h1 className="text-center">{capitalizeFirstLetter(currentPage.name)}</h1>
-                      <hr className="light my-4" />
+                      {/* <hr className="light my-4" /> */}
                       <form id="contact-form" onSubmit={handleSubmit} className="mb-5">
                           <div>
-                              <label htmlFor="name">Name:</label>
+                            
                               <input
                                   className="form-control"
                                   placeholder="Name"
@@ -72,7 +73,7 @@ function Contact() {
                               />
                           </div>
                           <div>
-                              <label htmlFor="email">Email address:</label>
+                        
                               <input
                                   className="form-control"
                                   placeholder="Email"
@@ -83,7 +84,7 @@ function Contact() {
                               />
                           </div>
                           <div>
-                              <label htmlFor="message">Message:</label>
+                             
                               <textarea
                                   className="form-control"
                                   placeholder="Message"
@@ -105,7 +106,7 @@ function Contact() {
                   
                       <h4>
                           Althea Hanson <br />
-                          Or simply send me an email at:  <a href="mailto:altheacarlenehanson@gmail.com"> altheacarlenehanson@gmail.com</a>
+                          Or email at:  <a href="mailto:altheacarlenehanson@gmail.com"> altheacarlenehanson@gmail.com</a>
                       </h4>
                   </div>
               </div>
