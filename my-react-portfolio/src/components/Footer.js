@@ -7,7 +7,7 @@ import './styles/Footer.css'
 
 const Footer = () => {
   return (
-    <Box component="main" sx={{  flexGrow: 1, pl: 25, pr:10, py: 12,  }}>
+    <Box component="main" sx={{  flexGrow: 1, pl: 25, pr:10, py: 12,  background:"#E3FDFD" }}>
 
 <section className='footer'> 
       <section className='footer__social'>

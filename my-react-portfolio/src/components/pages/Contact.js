@@ -54,7 +54,7 @@ function Contact() {
 
   return (
     <Box component="main" sx={{  flexGrow: 1, display:"flex", justifyContent:'center', py: 12, background:"#E3FDFD" }}>
-      <section >
+      <section  >
           <div className="container" >
               <div className="row">
                   <div className="col-lg-10 mx-auto text-white mb-4">

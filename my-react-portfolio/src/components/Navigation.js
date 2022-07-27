@@ -22,7 +22,7 @@ const Navigation = () => {
         <ListItemButton sx={{ textAlign: 'Center' }} >
                 <ListItemIcon>
                   <ListItemText>
-                  <NavLink to="/" style={({ isActive  }) => { return { color: isActive ? 'red' : 'green' } }} > About </NavLink>
+                  <NavLink to="/" style={({ isActive  }) => { return { color: isActive ? 'blue' : 'DarkGreen' } }} > About </NavLink>
                   </ListItemText>
                 </ListItemIcon>
               </ListItemButton>
@@ -31,7 +31,7 @@ const Navigation = () => {
               <ListItemButton sx={{ textAlign: 'Center' }}  key={index}>
                 <ListItemIcon>
                   <ListItemText>
-                    <NavLink to={page} style={({ isActive  }) => { return { color: isActive ? 'red' : 'green' } }} >
+                    <NavLink to={page} style={({ isActive  }) => { return { color: isActive ? 'blue' : 'DarkGreen' } }} >
                     {page}</NavLink>
                   </ListItemText>
                 </ListItemIcon>
