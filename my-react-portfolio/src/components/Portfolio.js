@@ -13,7 +13,7 @@ const Portfolio = (props) => {
       <img src={props.image} className="card-img-top" alt={props.alt} />
     </div>
 
-    <div className="footer mx-auto mb-4">
+    <div className=" mx-auto mb-4">
       <a href={props.repository} rel="noreferrer" target="_blank" className="btn btn-primary">Repository</a>
       <a href={props.deployed} rel="noreferrer" target="_blank" className="btn btn-primary">Deployed</a>
     </div>

@@ -53,13 +53,12 @@ function Contact() {
 
 
   return (
-    <Box component="main" sx={{  flexGrow: 1, display:"flex", justifyContent:'center', py: 12,  }}>
-      <section className="bg-dark">
+    <Box component="main" sx={{  flexGrow: 1, display:"flex", justifyContent:'center', py: 12, background:"#E3FDFD" }}>
+      <section >
           <div className="container" >
               <div className="row">
                   <div className="col-lg-10 mx-auto text-white mb-4">
                   <h1 className="text-center">{capitalizeFirstLetter(currentPage.name)}</h1>
-                      {/* <hr className="light my-4" /> */}
                       <form id="contact-form" onSubmit={handleSubmit} className="mb-5">
                           <div>
                             

@@ -7,7 +7,7 @@ import resume from '../../pdf/Resume.pdf'
 const Resume = () => {
 
   return (
-    <Box component="main" sx={{  display:"flex",  justifyContent:"center", pl: 30, marginTop: 10, }}>
+    <Box component="main" sx={{  display:"flex",  justifyContent:"center", pl: 30, marginTop: 10,  }}>
   <div>
     <Document file={resume} >
       <Page pageNumber={1} width="1024"/>

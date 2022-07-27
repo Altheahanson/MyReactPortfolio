@@ -1,9 +1,10 @@
 
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { Drawer, List, ListItemButton, ListItemIcon, ListItemText } from '@mui/material';
 import ImageAvatars from './Avatar';
 import Box from '@mui/material/Box';
+
 
 
 // Setup NavItems
@@ -11,16 +12,17 @@ const PAGES = [ 'Projects', 'Contact', 'Resume'];
 
 
 const Navigation = () => {
+  
   return (
     <React.Fragment>
      <Box sx={{ display: 'flex' }}>
-      <Drawer open={true}  variant="permanent" anchor="left">
+      <Drawer open={true}  variant="permanent" anchor="left" >
         <List sx={{ padding: '30px' }}>
         <ImageAvatars/>
         <ListItemButton sx={{ textAlign: 'Center' }} >
                 <ListItemIcon>
                   <ListItemText>
-                    <Link to="/" style={{ textDecoration: 'none' }}> About </Link> 
+                  <NavLink to="/" style={({ isActive  }) => { return { color: isActive ? 'red' : 'green' } }} > About </NavLink>
                   </ListItemText>
                 </ListItemIcon>
               </ListItemButton>
@@ -29,7 +31,8 @@ const Navigation = () => {
               <ListItemButton sx={{ textAlign: 'Center' }}  key={index}>
                 <ListItemIcon>
                   <ListItemText>
-                    <Link to={page} style={{ textDecoration: 'none' }}> {page} </Link> 
+                    <NavLink to={page} style={({ isActive  }) => { return { color: isActive ? 'red' : 'green' } }} >
+                    {page}</NavLink>
                   </ListItemText>
                 </ListItemIcon>
               </ListItemButton>

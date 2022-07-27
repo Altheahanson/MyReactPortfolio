@@ -11,7 +11,7 @@ const Header = () => {
     return (
         <React.Fragment>
          
-            <AppBar sx={{background: "purple"}}>
+            <AppBar sx={{background: "#71C9CE"}}>
            
                 <Toolbar>   
                 <Navigation/>
