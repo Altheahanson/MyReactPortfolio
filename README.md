@@ -50,10 +50,10 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
     - A pdf display of my resume, with a link to download it on the header tab
 
 ## References
-![Deployed Site](./my-react-portfolio/src/components/images/deployedabout.png)
-![Deployed Site](./my-react-portfolio/src/components/images/deployedProjects.png)
-![Deployed Site](./my-react-portfolio/src/components/images/deployedContact.png)
-![Deployed Site](./my-react-portfolio/src/components/images/deployedResume.png)
+![Deployed Site](./src/components/images/deployedabout.png)
+![Deployed Site](./src/components/images/deployedProjects.png)
+![Deployed Site](./src/components/images/deployedContact.png)
+![Deployed Site](./src/components/images/deployedResume.png)
 
 ## Deployed Site/ Github Pages
 https://altheahanson.github.io/MyReactPortfolio/
