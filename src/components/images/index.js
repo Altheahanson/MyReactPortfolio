@@ -4,6 +4,7 @@ import ReWindLogo from './ReWindLogo.png'
 import techblog from './tech-blog.png'
 import weatherDashboardLogo from './weatherDashboardLogo.png'
 import WorkDayScheduler from './WorkDayScheduler.png'
+import TicTacToe from './TicTacToe.png'
 
 import Althea from './AltheaHeadShot.jpg'
 
@@ -15,5 +16,7 @@ ReWindLogo,
  techblog, 
  weatherDashboardLogo, 
  WorkDayScheduler,
- Althea
+ Althea,
+ TicTacToe
+
 };

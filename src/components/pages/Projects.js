@@ -14,11 +14,11 @@ const projects = [
     deployed: "https://serene-carlsbad-caverns-28814.herokuapp.com/login"
   },
   {
-    title: "Drip Drop",
-     image:Images.DripDropLogo ,
+    title: " Explosive TicTacToe",
+     image:Images.TicTacToe ,
     alt: "",
-    repository: "https://github.com/Altheahanson/DripDrop",
-    deployed: "https://drip-drop.netlify.app"
+    repository: "https://github.com/RichardZhang01/explosive-tic-tac-toe",
+    deployed: "https://explosive-tic-tac-toe.herokuapp.com/"
   },
   {
     title: "Rewind",

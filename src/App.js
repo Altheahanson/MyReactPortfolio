@@ -4,10 +4,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import About from './components/Pages/About';
-import Projects from './components/Pages/Projects';
-import Contact from './components/Pages/Contact';
-import Resume from './components/Pages/Resume';
+import About from './components/pages/About';
+import Projects from './components/pages/Projects';
+import Contact from './components/pages/Contact';
+import Resume from './components/pages/Resume';
 import CssBaseline from '@mui/material/CssBaseline';
 
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import { AppBar, Button, Toolbar, Typography } from '@mui/material'
 import Navigation from './Navigation'
- import Resume from '../../../my-react-portfolio/src/pdf/Resume.pdf'
+ import Resume from '../../src/pdf/Resume.pdf'
 
 
 
