@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyReactPortfolio/static/css/main.a4e5425f.css",
-    "main.js": "/MyReactPortfolio/static/js/main.9479e788.js",
+    "main.css": "/MyReactPortfolio/static/css/main.c5b0e121.css",
+    "main.js": "/MyReactPortfolio/static/js/main.5489aa2a.js",
     "pdf.worker.js": "/MyReactPortfolio/e7e915313973ba1d49f9bb2a1998626e.js",
     "static/media/Resume.pdf": "/MyReactPortfolio/static/media/Resume.4cd5b7ab59264f6e5425.pdf",
     "static/media/MovieVsTriviaLogo.png": "/MyReactPortfolio/static/media/MovieVsTriviaLogo.d1e9f09ca0799afdbce8.png",
@@ -12,11 +12,11 @@
     "static/media/ReWindLogo.png": "/MyReactPortfolio/static/media/ReWindLogo.c937205410b05ad10fab.png",
     "static/media/WorkDayScheduler.png": "/MyReactPortfolio/static/media/WorkDayScheduler.eac32f458beef21de7ef.png",
     "index.html": "/MyReactPortfolio/index.html",
-    "main.a4e5425f.css.map": "/MyReactPortfolio/static/css/main.a4e5425f.css.map",
-    "main.9479e788.js.map": "/MyReactPortfolio/static/js/main.9479e788.js.map"
+    "main.c5b0e121.css.map": "/MyReactPortfolio/static/css/main.c5b0e121.css.map",
+    "main.5489aa2a.js.map": "/MyReactPortfolio/static/js/main.5489aa2a.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4e5425f.css",
-    "static/js/main.9479e788.js"
+    "static/css/main.c5b0e121.css",
+    "static/js/main.5489aa2a.js"
   ]
 }
