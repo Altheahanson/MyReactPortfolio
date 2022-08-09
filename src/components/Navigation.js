@@ -22,7 +22,7 @@ const Navigation = () => {
         <ListItemButton sx={{ textAlign: 'Center' }} >
                 <ListItemIcon>
                   <ListItemText>
-                  <NavLink to="/ " style={({ isActive  }) => { return { color: isActive ? 'blue' : 'DarkGreen' } }} > About </NavLink>
+                  <NavLink to='/MyReactPortfolio/' style={({ isActive  }) => { return { color: isActive ? 'blue' : 'DarkGreen' } }} > About </NavLink>
                   </ListItemText>
                 </ListItemIcon>
               </ListItemButton>

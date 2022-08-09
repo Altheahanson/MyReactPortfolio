@@ -20,7 +20,7 @@ function App() {
         <Header />
         <Navigation/>
         <Routes>
-          <Route path='/' element={<About />} ></Route>
+          <Route path='/MyReactPortfolio/' element={<About />} ></Route>
           <Route path='/projects' element={<Projects />}></Route>
           <Route path='/contact' element={<Contact />}></Route>
           <Route path='/resume' element={<Resume />}></Route>
