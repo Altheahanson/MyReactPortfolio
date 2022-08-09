@@ -85,6 +85,7 @@ a.white-link {
 
 /* Contact Us Form */
 .form-control {
+  width: 100%;
   padding: 0.664rem 1rem;
   font-size: 0.95rem;
   line-height: 1.125rem;
