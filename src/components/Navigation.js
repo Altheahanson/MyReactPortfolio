@@ -28,7 +28,7 @@ const Navigation = () => {
         <ListItemButton sx={{ textAlign: 'Center' }} >
                 <ListItemIcon>
                   <ListItemText>
-                  <NavLink to='/MyReactPortfolio/' style={({ isActive  }) => { return { color: isActive ? 'blue' : 'DarkGreen' } }} > About </NavLink>
+                  <NavLink to='/MyReactPortfolio/' style={({ isActive  }) => { return { color: isActive ? 'blue' : 'Black' } }} > About </NavLink>
                   </ListItemText>
                 </ListItemIcon>
               </ListItemButton>
@@ -37,7 +37,7 @@ const Navigation = () => {
               <ListItemButton sx={{ textAlign: 'Center' }}  key={index}>
                 <ListItemIcon>
                   <ListItemText>
-                    <NavLink to={page} style={({ isActive  }) => { return { color: isActive ? 'blue' : 'DarkGreen' } }} >
+                    <NavLink to={page} style={({ isActive  }) => { return { color: isActive ? 'blue' : 'Black' } }} >
                     {page}</NavLink>
                   </ListItemText>
                 </ListItemIcon>

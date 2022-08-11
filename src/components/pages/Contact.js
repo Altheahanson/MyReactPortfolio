@@ -54,7 +54,7 @@ function Contact() {
 
 
   return (
-    <Box component="main" sx={{  flexGrow: 1, display:"flex", justifyContent:'center', py: 12, background:"#E3FDFD" }}>
+    <Box component="main" sx={{  flexGrow: 1, pl: 30, pr:5, py: 7, background:"#E3FDFD" }}>
       <section  >
           <div className="container" >
               <div className="row">
@@ -104,9 +104,9 @@ function Contact() {
                           </div>
                       </form>
                   
-                      <h4>
-                          Althea Hanson <br />
-                          Or email at:  <a href="mailto:altheacarlenehanson@gmail.com"> altheacarlenehanson@gmail.com</a>
+                      <h4 className="text-center">
+                      Or email at: <br/>
+                            <a href="mailto:altheacarlenehanson@gmail.com"> altheacarlenehanson@gmail.com</a>
                       </h4>
                   </div>
               </div>

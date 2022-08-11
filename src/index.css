@@ -2,12 +2,13 @@ body,
 html {
   width: 100%;
   height: 100%;
-  ;
+  
 }
 
 body {
   font-family: "Merriweather", "Helvetica Neue", Arial, sans-serif;
-  background-color: #E3FDFD;
+  background-color: #E3FDFD !important;
+
 }
 
 
@@ -143,6 +144,12 @@ form .col-form-legend {
 
 form label:hover {
   cursor: pointer;
+}
+.text-center{
+  display: flex;
+  justify-content: center ; 
+  text-align: center;
+  
 }
 
 /* Error Warning */

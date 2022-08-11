@@ -59,7 +59,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <Box component="main" sx={{ pl: 25, pr:10, py: 12, background:"#E3FDFD" }}>
+    <Box component="main" sx={{ pl: 30, pr:5, py: 10, background:"#E3FDFD" }}>
 
 <section>
       <h2>Projects</h2>

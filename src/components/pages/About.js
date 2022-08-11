@@ -8,7 +8,7 @@ import '../styles/about.css'
 
 function About() {
   return (
-    <Box component="main" sx={{  flexGrow: 1, pl: 25, pr:10, py: 12, background:"#E3FDFD" }}>
+    <Box component="main" sx={{  flexGrow: 1, pl: 25, pr:10, py: 10, background:"#E3FDFD" }}>
     <div className='photoHeader'  sx={{background:"#E3FDFD"}} >
       <div >
       <img className="me" src={Image.Althea} alt="Photo of Althea"/>
