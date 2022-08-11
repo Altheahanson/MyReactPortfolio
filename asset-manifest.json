@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/MyReactPortfolio/static/css/main.c5b0e121.css",
-    "main.js": "/MyReactPortfolio/static/js/main.5489aa2a.js",
+    "main.css": "/MyReactPortfolio/static/css/main.655fbe6d.css",
+    "main.js": "/MyReactPortfolio/static/js/main.7b2a6960.js",
     "pdf.worker.js": "/MyReactPortfolio/e7e915313973ba1d49f9bb2a1998626e.js",
-    "static/media/Resume.pdf": "/MyReactPortfolio/static/media/Resume.4cd5b7ab59264f6e5425.pdf",
-    "static/media/MovieVsTriviaLogo.png": "/MyReactPortfolio/static/media/MovieVsTriviaLogo.d1e9f09ca0799afdbce8.png",
-    "static/media/TicTacToe.png": "/MyReactPortfolio/static/media/TicTacToe.a49c204796fba572d160.png",
+    "static/media/Resume.pdf": "/MyReactPortfolio/static/media/Resume.a463423fef0a6670391d.pdf",
+    "static/media/MovieVsTriviaLogo.png": "/MyReactPortfolio/static/media/MovieVsTriviaLogo.3f4bf7f95b117e26ddda.png",
     "static/media/DripDropLogo.png": "/MyReactPortfolio/static/media/DripDropLogo.7892c5748a2d0ad14e0d.png",
+    "static/media/TicTacToe.png": "/MyReactPortfolio/static/media/TicTacToe.86cbfc2a17800eb1c0d7.png",
     "static/media/AltheaHeadShot.jpg": "/MyReactPortfolio/static/media/AltheaHeadShot.2cc61c23f57859367e70.jpg",
-    "static/media/weatherDashboardLogo.png": "/MyReactPortfolio/static/media/weatherDashboardLogo.f4eeb0d3af42e41374ae.png",
-    "static/media/ReWindLogo.png": "/MyReactPortfolio/static/media/ReWindLogo.c937205410b05ad10fab.png",
-    "static/media/WorkDayScheduler.png": "/MyReactPortfolio/static/media/WorkDayScheduler.eac32f458beef21de7ef.png",
+    "static/media/weatherDashboardLogo.png": "/MyReactPortfolio/static/media/weatherDashboardLogo.66e6bc5fc8d863bb93e9.png",
+    "static/media/ReWindLogo.png": "/MyReactPortfolio/static/media/ReWindLogo.41be377c87f57f6c0717.png",
+    "static/media/WorkDayScheduler.png": "/MyReactPortfolio/static/media/WorkDayScheduler.34ab1d531128137da375.png",
+    "static/media/tech-blog.png": "/MyReactPortfolio/static/media/tech-blog.850616ab49a80caff670.png",
     "index.html": "/MyReactPortfolio/index.html",
-    "main.c5b0e121.css.map": "/MyReactPortfolio/static/css/main.c5b0e121.css.map",
-    "main.5489aa2a.js.map": "/MyReactPortfolio/static/js/main.5489aa2a.js.map"
+    "main.655fbe6d.css.map": "/MyReactPortfolio/static/css/main.655fbe6d.css.map",
+    "main.7b2a6960.js.map": "/MyReactPortfolio/static/js/main.7b2a6960.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5b0e121.css",
-    "static/js/main.5489aa2a.js"
+    "static/css/main.655fbe6d.css",
+    "static/js/main.7b2a6960.js"
   ]
 }
