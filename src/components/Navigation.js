@@ -8,7 +8,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import Box from '@mui/material/Box';
 import Resume from '../../src/pdf/Resume.pdf'
-import './styles/Footer.css'
+import './styles/navigation.css'
 
 
 
@@ -23,21 +23,44 @@ const Navigation = () => {
      <Box sx={{ display: 'flex' }}>
       <Drawer open={true}  variant="permanent" anchor="left" sx={{background: "#71C9CE"}} >
         <List sx={{ padding: '30px'}}>
-        <Typography sx={{ fontSize: 20 }}> Althea Hanson</Typography>
         <ImageAvatars/>
+        <Typography className='myName' sx={{ fontSize: 20 }}> Althea Hanson</Typography>
         <ListItemButton sx={{ textAlign: 'Center' }} >
                 <ListItemIcon>
                   <ListItemText>
-                  <NavLink to='/MyReactPortfolio/' style={({ isActive  }) => { return { color: isActive ? 'blue' : 'Black' } }} > About </NavLink>
+                  <NavLink className='Links' to='/MyReactPortfolio/' style={({ isActive }) => ({
+                  fontSize: '20px',
+                  textDecoration: 'none',
+                  justifyContent: 'center',
+                  borderRadius: '10px',
+                  padding: '10px',
+                  paddingLeft: '20px',
+                  paddingRight: '20px',
+                  boxShadow: '3px 5px 5px #888888',
+                  color: isActive ? '#002B5B' : '#fff',
+                  background: isActive ? '#8FE3CF' : '#002B5B',
+                })} 
+                > About </NavLink>
                   </ListItemText>
                 </ListItemIcon>
               </ListItemButton>
           {
             PAGES.map((page, index) => (
-              <ListItemButton sx={{ textAlign: 'Center' }}  key={index}>
+              <ListItemButton sx={{  }}  key={index}>
                 <ListItemIcon>
                   <ListItemText>
-                    <NavLink to={page} style={({ isActive  }) => { return { color: isActive ? 'blue' : 'Black' } }} >
+                    <NavLink className='Links' to={page} style={({ isActive }) => ({
+                  fontSize: '20px',
+                  textDecoration: 'none',
+                  justifyContent: 'center',
+                  borderRadius: '10px',
+                  padding: '10px',
+                  paddingLeft: '10px',
+                  paddingRight: '10px',
+                  boxShadow: '3px 5px 5px #888888',
+                  color: isActive ? '#002B5B' : '#fff',
+                  background: isActive ? '#8FE3CF' : '#002B5B',
+                })} >
                     {page}</NavLink>
                   </ListItemText>
                 </ListItemIcon>
@@ -45,10 +68,10 @@ const Navigation = () => {
             ))
           }
 
-      <Typography sx={{ marginLeft: "auto", marginRight: 5  }}> Toronto ON</Typography>
+      <Typography className='location' sx={{ margin: "auto"  }}> Toronto ON</Typography>
 
 <a style={{ textDecoration: 'none' }} href={Resume} target="_blank" rel="noreferrer" download>
-<Button sx={{ marginLeft: "auto" }} variant="contained" size="small"> DownLoad CV</Button>
+<Button className='download' sx={{ marginLeft: "auto" }} variant="contained" size="small"> DownLoad CV</Button>
 </a>
 
 <section className='footer'> 

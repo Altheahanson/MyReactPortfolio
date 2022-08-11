@@ -1,0 +1,19 @@
+.footer__social {
+    display: flex;
+    justify-content: center ; 
+    text-align: center; 
+}
+
+.myName{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.location{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.footer{
+    padding-top: 60px;
+}
